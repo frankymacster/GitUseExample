@@ -14,7 +14,7 @@
 		82AD0D511B94CA680091FA7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AD0D501B94CA680091FA7F /* Images.xcassets */; };
 		82AD0D541B94CA680091FA7F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82AD0D521B94CA680091FA7F /* LaunchScreen.xib */; };
 		82AD0D601B94CA680091FA7F /* GitUseExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AD0D5F1B94CA680091FA7F /* GitUseExampleTests.m */; };
-		82AD0D6B1B94CEA40091FA7F /* NSObject+MapForItenerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AD0D6A1B94CEA40091FA7F /* NSObject+MapForItenerary.m */; };
+		82AD0D6E1B94D0160091FA7F /* MapForItinerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AD0D6D1B94D0160091FA7F /* MapForItinerary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		82AD0D591B94CA680091FA7F /* GitUseExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitUseExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82AD0D5E1B94CA680091FA7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82AD0D5F1B94CA680091FA7F /* GitUseExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitUseExampleTests.m; sourceTree = "<group>"; };
-		82AD0D691B94CEA40091FA7F /* NSObject+MapForItenerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MapForItenerary.h"; sourceTree = "<group>"; };
-		82AD0D6A1B94CEA40091FA7F /* NSObject+MapForItenerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MapForItenerary.m"; sourceTree = "<group>"; };
+		82AD0D6C1B94D0160091FA7F /* MapForItinerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapForItinerary.h; sourceTree = "<group>"; };
+		82AD0D6D1B94D0160091FA7F /* MapForItinerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapForItinerary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +84,6 @@
 		82AD0D421B94CA680091FA7F /* GitUseExample */ = {
 			isa = PBXGroup;
 			children = (
-				82AD0D691B94CEA40091FA7F /* NSObject+MapForItenerary.h */,
-				82AD0D6A1B94CEA40091FA7F /* NSObject+MapForItenerary.m */,
 				82AD0D471B94CA680091FA7F /* AppDelegate.h */,
 				82AD0D481B94CA680091FA7F /* AppDelegate.m */,
 				82AD0D4A1B94CA680091FA7F /* ViewController.h */,
@@ -94,6 +92,8 @@
 				82AD0D501B94CA680091FA7F /* Images.xcassets */,
 				82AD0D521B94CA680091FA7F /* LaunchScreen.xib */,
 				82AD0D431B94CA680091FA7F /* Supporting Files */,
+				82AD0D6C1B94D0160091FA7F /* MapForItinerary.h */,
+				82AD0D6D1B94D0160091FA7F /* MapForItinerary.m */,
 			);
 			path = GitUseExample;
 			sourceTree = "<group>";
@@ -224,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82AD0D6B1B94CEA40091FA7F /* NSObject+MapForItenerary.m in Sources */,
+				82AD0D6E1B94D0160091FA7F /* MapForItinerary.m in Sources */,
 				82AD0D4C1B94CA680091FA7F /* ViewController.m in Sources */,
 				82AD0D491B94CA680091FA7F /* AppDelegate.m in Sources */,
 				82AD0D461B94CA680091FA7F /* main.m in Sources */,

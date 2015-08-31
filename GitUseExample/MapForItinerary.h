@@ -1,5 +1,5 @@
 //
-//  NSObject+MapForItenerary.h
+//  MapForItinerary.h
 //  GitUseExample
 //
 //  Created by François Sunatori on 2015-08-31.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSObject (MapForItenerary)
+@interface MapForItinerary : NSObject
 
 @end
